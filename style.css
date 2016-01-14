@@ -1,0 +1,121 @@
+body{
+	font-family: 'Inconsolata',"Courier" ; 
+	}
+p{
+}
+
+#pageBox{
+	margin: .8%;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#000000;
+    color: white;
+    height:auto;
+    width:100%;
+    float:left;
+    margin-right:5px;
+    }
+
+#main {
+	padding-top: 2%;
+	padding-right: .5%;
+	padding-left: .5%;
+	height: 87%;
+	}
+
+#middle {
+	border-left: thin solid #000000;
+	border-right: thin solid #000000;
+}
+
+#header h1 {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	padding-left: 2%;
+	margin-top: 0%;
+	margin-bottom: 1%;
+
+}
+
+#header img {
+	float: right;
+	width:3%;
+	margin-bottom: .5%;
+	margin-right: 2%;
+	margin-top: 0%;
+}
+
+#footer {
+	position: absolute;
+	width: 96%;
+	bottom: 10px;
+}
+
+.catPic{
+	width: 40%;
+	float: left;
+	padding-right: 3%;
+}
+
+.hidden {
+	display:none;
+}
+
+.column{
+	display: inline-block;
+	border-left: thin solid #000000;
+	width: 29%;
+	padding: 1%;
+	vertical-align: top;
+	}
+
+a.link {
+	width: 18%;
+	font-size: 12pt;
+	background:none;
+	border:none; 
+	color:white;
+	cursor:pointer;
+	text-decoration:none;
+	padding-right: 5%;
+	padding-left:2%;
+}
+
+a.link.underline {
+	text-decoration:underline;
+}
+
+hr {
+    border-top:1px dotted #000;
+    /*Rest of stuff here*/
+}
+
+.selected {
+}
+
+.contactText{
+	position: relative;
+	height: 40%;
+	margin-top: 12%;
+	text-align: center;
+	background-image: url("http://i.imgur.com/zH7Wu8n.jpg")
+}
+
+.bioText {
+	opacity:1;
+}
+.guitarText {
+	opacity:0;
+}
+.catText {
+	opacity: 0;
+}
+.giftext {
+	opacity: 0;
+}
+.contactText {
+	opacity: 0;
+}
