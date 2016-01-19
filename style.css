@@ -72,6 +72,14 @@ p{
 	vertical-align: top;
 	}
 
+.two_column{
+	display: inline-block;
+	border-left: thin solid #000000;
+	width: 47%;
+	padding: 1%;
+	vertical-align: top;
+	}
+
 a.link {
 	width: 18%;
 	font-size: 12pt;
